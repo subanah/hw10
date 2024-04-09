@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "Open Sans", sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2{
+    margin: 0;
+}
+
+nav{
+    background-color: #02918c;
+    height: 60px;
+}
+nav .container{
+    width: 1170px;
+    margin: auto;
+}
+nav .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+:root{
+    --primary-color: #02918c;
+    --clr:#7e8287;
+  }
+nav ul li{
+    display: inline-block;
+   
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
+    padding: 25px;
+}
+nav ul li a:hover{
+    color: #cfc91d;
+}
+#banner{
+    background-image: url(./images/myfolio\ 2.png);
+    height: 730px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+
+}
+#banner .container2 .contains{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 730px;
+    color: #fff;
+    justify-content: center;
+
+}
+
+#banner .container2 .contains h1{
+    font-size: 68px;
+    letter-spacing:32px ;
+    text-transform: uppercase;
+
+}
+#banner .container2 .contains img{
+    padding: 53px;
+}
+#banner .container2 .contains button{
+    padding: 17px;
+    border: none;
+    background-color: #cfc91d;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 0;
+
+}
+#about{
+    padding: 100px 0;
+}
+#about .container3 .header{
+    text-align: center;
+    width: 910px;
+    margin: auto;
+}
+#about .container3 .header h1{
+      color: var(--primary-color);
+      font-size: 46px;
+      font-weight: 800;
+}
+#about .container3 .header span{
+    display: inline-block;
+    padding: 32px;
+
+}
+#about .container3 .header p{
+     font-size: 16px;
+     color: var(--clr);
+     line-height: 48px;
+}
+#about .container3 .header p b{
+    font-size: 23px;
+}
+#about .container3 .card{
+    
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid var(--clr);
+    width: 100%;
+}
+#about .container3 .card h4{
+    
+    padding: 30px;
+    font-size: 16px;
+    color: var(--clr);
+}
+#about .container3 .card p{
+    font-size: 11px;
+    padding: 0 50px;
+    color: var(--clr);
+}
